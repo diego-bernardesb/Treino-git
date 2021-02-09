@@ -8,5 +8,11 @@ git push -> envia os arquivos já comitados para o repositorio local.
 Os comandos passados a cima são os principais comando mais utilizados para editar, commitar e sincronizar com o repositorio remoto.
 
 git status -> ver o status dos arquivo que já foram adicionado ou não para serem comitados.
-git log -> exibir os aquivos já comitados com seus codigos e referencias.
+git log -> exibir os aquivos já comitados com seus codigos e referencia.
+
+Os comandos acima são mais utilizados para exibir o stado que os arquivos se encotram se já foram adicionados ou comitados, e o git log tras toda a lista de comits realizados assim ficando facil encontrar as atualizações feitas no arquivo.
+
+git diff -> exibir a difirtenças entre commits e branchs.
+git diff [path] -> diferença no diretorio
+git diff HEAD~1 -> mostra a diferença do arquivo atual para oque tinha antes do ultimo comit.
 
