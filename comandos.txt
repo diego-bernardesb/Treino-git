@@ -1,0 +1,12 @@
+git commit -> cria o commit do arquivo.
+git commit -m "mensagem" -> faz o commit e adiciona uma mensagem entre aspas.
+git add -> adiciona um arquivo para ser comitado.
+git add . -> adiciona todos os arquivos para serem comitados.
+git config --global core.editor  -> troca o editor de texto.
+git push -> envia os arquivos já comitados para o repositorio local.
+
+Os comandos passados a cima são os principais comando mais utilizados para editar, commitar e sincronizar com o repositorio remoto.
+
+git status -> ver o status dos arquivo que já foram adicionado ou não para serem comitados.
+git log -> exibir os aquivos já comitados.
+
