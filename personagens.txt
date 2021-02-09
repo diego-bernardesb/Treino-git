@@ -2,5 +2,4 @@ Olá mundo
 
 Rodou o code
 
-quanta satisfação.
-
+Consegui realizar o exercício1 de commits.
