@@ -1,5 +1,5 @@
 Olá mundo
 
-Rodou o code
+Rodou o code.
 
-Consegui realizar o exercício1 de commits.
+Consegui realizar o exercício 1.
