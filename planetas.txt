@@ -1,4 +1,5 @@
 Terra
 Venus
 Mercurio
-
+Urano
+Netuno
