@@ -3,3 +3,6 @@ Venus
 Mercurio
 Urano
 Netuno
+Jupter
+Saturno
+

@@ -28,5 +28,12 @@ git checkout <commit> <file> -> esse comando retorna ao commit desejado(pegando 
 
 git checkout -- <file> ou <.> -> Remove todas as modificações antes de serem commitadas, ou referente a um arquivo, ou se usar o <.> todos os arquivos.
 git checkout HEAD -- <file> -> desfaz as alterações desde o ultimo commit incluindo as alteração que ainda estiverem no stage.
+
 git revert <commit> -> reverte um commit, caso seja commitado e precise ser retirado, o revert vai refazer para o commit marcado. 
 git reset --hard <commit> -> o uso do [git reset --hard <commit>] vc reseta o commit e apaga ele da lista de commits(não usar caso já tenha feito push no GitHub.).
+
+git branch <nova_branch> -> cria uma nova branch com o nome desejado.
+git branch -d <branch> -> exclui a branch informada.
+git checkout <branch> -> muda para branch indicada(da msm forma que navegamos pelos commits com o [git checkout] fazemos com as branchs).
+
+git merge <branch> -> realiza o merge(unir as modificações) na branch atual(a que estiver navegando), com a branch informada(a informada no [git merge <nome_da_branch]).
