@@ -3,7 +3,8 @@ git commit -m "mensagem" -> faz o commit e adiciona uma mensagem entre aspas.
 git add -> adiciona um arquivo para ser comitado.
 git add . -> adiciona todos os arquivos para serem comitados.
 git config --global core.editor  -> troca o editor de texto.
-git push -> envia os arquivos já comitados para o repositorio local.
+git push -> envia os arquivos já comitados para o repositório local.
+git pull -> baixa os arquivos do repositório remoto para o repositório local.
 
 Os comandos passados a cima são os principais comando mais utilizados para editar, commitar e sincronizar com o repositorio remoto.
 
@@ -15,4 +16,4 @@ Os comandos acima são mais utilizados para exibir o stado que os arquivos se en
 git diff -> exibir a difirtenças entre commits e branchs.
 git diff [path] -> diferença no diretorio
 git diff HEAD~1 -> mostra a diferença do arquivo atual para oque tinha antes do ultimo comit.
-
+git clone<URL> -> clona o repositório remoto.
