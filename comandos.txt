@@ -35,5 +35,6 @@ git reset --hard <commit> -> o uso do [git reset --hard <commit>] vc reseta o co
 git branch <nova_branch> -> cria uma nova branch com o nome desejado.
 git branch -d <branch> -> exclui a branch informada.
 git checkout <branch> -> muda para branch indicada(da msm forma que navegamos pelos commits com o [git checkout] fazemos com as branchs).
+git checkout -b <branch> -> tbm cria uma nova branch e já muda automaticamente para ela.
 
 git merge <branch> -> realiza o merge(unir as modificações) na branch atual(a que estiver navegando), com a branch informada(a informada no [git merge <nome_da_branch]).
