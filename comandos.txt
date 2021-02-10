@@ -30,3 +30,6 @@ git checkout -- <file> ou <.> -> Remove todas as modificações antes de serem c
 git checkout HEAD -- <file> -> desfaz as alterações desde o ultimo commit incluindo as alteração que ainda estiverem no stage.
 git revert <commit> -> reverte um commit, caso seja commitado e precise ser retirado, o revert vai refazer para o commit marcado. 
 git reset --hard <commit> -> o uso do [git reset --hard <commit>] vc reseta o commit e apaga ele da lista de commits(não usar caso já tenha feito push no GitHub.).
+
+git branch <nova_branch> -> cria uma nova branch com o nome desejado.
+git branch -d <branch> -> exclui a branch informada.
