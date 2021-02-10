@@ -26,7 +26,7 @@ ex: cd 'Área de Trabalho'(nomes com espaços precisam estar entre aspas).
 
 git checkout <commit> <file> -> esse comando retorna ao commit desejado(pegando o codigo, "não é necessario ser o codigo completo") e se especificar oaqruivo tbm é possivel ver só o arquivo no ponto daquele commit. O comando git checkout tbm pode ser usado para navegar pelas branch, e caso entre no modo checkout para retornar para a branch principal ou qlqr outra que deseje é só usar o comando [git checkout master].
 
-git checkout -- <file> ou <.> -> Remove todas as modificações antes de serem commitadas, ou referente a um arquivo, ou se usar o <.> todos os arquivos.
+git restore --staged <file>ou <.> -> Remove todas as modificações antes de serem commitadas, ou referente a um arquivo, ou se usar o <.> todos os arquivos.
 git checkout HEAD -- <file> -> desfaz as alterações desde o ultimo commit incluindo as alteração que ainda estiverem no stage.
 
 git revert <commit> -> reverte um commit, caso seja commitado e precise ser retirado, o revert vai refazer para o commit marcado. 
@@ -38,3 +38,7 @@ git checkout <branch> -> muda para branch indicada(da msm forma que navegamos pe
 git checkout -b <branch> -> tbm cria uma nova branch e já muda automaticamente para ela.
 
 git merge <branch> -> realiza o merge(unir as modificações) na branch atual(a que estiver navegando), com a branch informada(a informada no [git merge <nome_da_branch]).
+git rebase <branch> -> Realiza um processo parecido com o merge, porém ele faz uma organização rebaseando a ordem de cada commit, e tornando a produção de forma linear, caso tenha um commit feito em uma branch secundaria e dps seja feito um commit na branch principal, e organizaria eles em ordem de execução sendo assim ficaria o commit da branch secundaria seguido pelo commit da branch principal, destá forma sendo adicionado como um novo commit e não como um commit merge.
+git fetch -> realiza o pull do repositório remoto, porem não aplica elas no repositório local, permite fazer o rebase de uma branch em vez de um merge, o fetch + rebase é uma melhor pratica para manter um histórico do desenvolvimento.
+
+
