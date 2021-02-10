@@ -17,3 +17,14 @@ git diff -> exibir a difirtenças entre commits e branchs.
 git diff [path] -> diferença no diretorio
 git diff HEAD~1 -> mostra a diferença do arquivo atual para oque tinha antes do ultimo comit.
 git clone<URL> -> clona o repositório remoto.
+
+cd -> voltar pastas de acesso.
+cd (destino) -> vai a pasta destino, porém é necessario todo o caminho pasta a pasta.
+ex: cd 'Área de Trabalho'(nomes com espaços precisam estar entre aspas). 
+    cd Nova-Pasta nomes não separado por espaços não precisam de aspas.
+
+
+git checkout <commit> <file> -> esse comando retorna ao commit desejado(pegando o codigo, "não é necessario ser o codigo completo") e se especificar oaqruivo tbm é possivel ver só o arquivo no ponto daquele commit. O comando git checkout tbm pode ser usado para navegar pelas branch, e caso entre no modo checkout para retornar para a branch principal ou qlqr outra que deseje é só usar o comando [git checkout master].
+
+git checkout -- <file> ou <.> -> Remove todas as modificações antes de serem commitadas, ou referente a um arquivo, ou se usar o <.> todos os arquivos.
+
